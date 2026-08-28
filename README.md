@@ -1,120 +1,64 @@
-# GenAI-and-AgenticAI-Practice
+# Yashwanth Ramachandra — academic and professional portfolio
 
-This repository is a hands-on learning space for Generative AI and Agentic AI development, designed to help practitioners understand how modern AI systems are built, orchestrated, and deployed in real-world scenarios.
+This repository contains the source for a research-oriented portfolio focused on Healthcare AI, generative and agentic AI, multimodal learning, clinical decision support, and trustworthy AI systems.
 
-It contains a collection of practical code examples, experiments, and mini-projects that demonstrate key concepts in LLM-based applications, AI agents, prompt engineering, structured outputs, and workflow orchestration.
+The site uses GitHub Pages-compatible Jekyll, Markdown, YAML data, Liquid includes, and lightweight CSS. It intentionally distinguishes documented work from developing research interests and does not publish unsupported credentials or results.
 
-The goal of this repository is to serve as a learning playground for engineers, data scientists, and AI enthusiasts who want to move beyond theory and build working GenAI systems.
+## Local development
 
+Requirements: Ruby and Bundler.
 
-## **Purpose**
-
-This repository was created to:
-	•	Practice and explore Generative AI development
-	•	Experiment with Agentic AI workflows
-	•	Build practical LLM applications
-	•	Demonstrate real implementation patterns
-	•	Provide reference implementations for learning
-
-It is intended to be a starting point for anyone looking to upskill in modern AI engineering.
-
-
-## **What You Will Find Here**
-
-This repository includes:
-	•	Working examples of LLM-based applications
-	•	Agentic workflows using modern frameworks
-	•	Prompt engineering experiments
-	•	Structured output handling
-	•	RAG (Retrieval Augmented Generation) implementations
-	•	API-based LLM integrations
-	•	Automation workflows powered by AI agents
-
-Each example focuses on practical implementation rather than theoretical explanation, allowing learners to directly run, modify, and experiment with the code.
-
-
-## **Who This Repository Is For**
-
-This repository is useful for:
-	•	Data Scientists transitioning into GenAI
-	•	AI Engineers building LLM-powered applications
-	•	Developers exploring AI agents
-	•	Students and professionals upskilling in AI
-
-If you want to understand how to go from prompt → workflow → application, this repository will be helpful.
-
-
-## **Learning Approach**
-
-The examples in this repository follow a learn-by-building philosophy:
-	1.	Understand the concept
-	2.	Run the example
-	3.	Modify the code
-	4.	Extend the workflow
-	5.	Build your own AI applications
-
-Most examples are intentionally minimal and modular, making them easier to understand and extend.
-
-
-## **Technologies Used**
-
-Some of the tools and frameworks used across examples include:
-	•	Python
-	•	LLM APIs
-	•	Prompt Engineering
-	•	RAG pipelines
-	•	Agent frameworks
-	•	Structured output validation
-	•	API integrations
-	•	Workflow orchestration
-
-New experiments and examples will continue to be added as the ecosystem evolves.
-
-
-## **Repository Structure (Example)**
-
-```
-genai-agentic-practice/
-│
-├── agents/
-│   Example AI agent workflows
-│
-├── rag/
-│   Retrieval Augmented Generation examples
-│
-├── structured_output/
-│   Handling LLM structured responses
-│
-├── prompt_engineering/
-│   Prompt design experiments
-│
-├── workflows/
-│   End-to-end AI pipelines
-│
-└── notebooks/
-    Exploratory experiments
+```bash
+bundle install
+bundle exec jekyll serve
 ```
 
+Open `http://localhost:4000`. To test the production build without serving it:
 
-## **Why This Repository**
+```bash
+bundle exec jekyll build
+```
 
-Many GenAI tutorials show isolated concepts, but real-world AI systems require:
-	•	Structured outputs
-	•	Reliable workflows
-	•	Multiple tool integrations
-	•	Agent orchestration
+## Repository structure
 
-This repository attempts to connect those pieces together.
+```text
+.
+├── _config.yml              # Site metadata and GitHub Pages settings
+├── _data/                   # Navigation and project metadata
+├── _includes/               # Header, footer, metadata, and project cards
+├── _layouts/                # Shared page and home layouts
+├── assets/                  # Styles and social preview image
+├── docs/CONTENT_GUIDE.md    # Editorial and evidence standards
+├── projects/                # Detailed project profiles
+├── index.md                 # Home page
+├── research.md              # Research vision, questions, and roadmap
+├── projects.md              # Project index
+├── writing.md               # Publications, reports, articles, and talks
+├── experience.md            # Concise professional profile
+├── about.md                 # Biography and contact
+├── cv.md                    # Web CV
+└── 404.md                   # Not-found page
+```
 
+## Updating content
 
-## **Contributions**
+### Add a project
 
-Contributions, improvements, and suggestions are welcome.
-Feel free to fork the repository and submit pull requests.
+1. Add card metadata to `_data/projects.yml`.
+2. Create `projects/<slug>.md` with `permalink: /projects/<slug>/`.
+3. Follow the structure in `docs/CONTENT_GUIDE.md`.
+4. Do not estimate results or imply clinical validation that did not occur.
 
+### Add a publication or talk
 
-## **Final Note**
+Update `writing.md` under the correct category. Include a stable citation or event link only when it is public and verified. Do not mix peer-reviewed publications with preprints, internal presentations, or technical articles.
 
-Generative AI is evolving rapidly. The best way to stay relevant is to experiment, build, and iterate continuously.
+### Update navigation
 
-This repository is simply a sandbox for that journey. 🚀
+Edit `_data/navigation.yml`. Use root-relative paths; Jekyll's `relative_url` filter applies `baseurl` during rendering.
+
+## Deployment
+
+GitHub Pages builds Jekyll sites from the configured publishing branch. The `github-pages` dependency mirrors the supported plugin set; `jekyll-seo-tag` and `jekyll-sitemap` are enabled. The current `url` and `baseurl` reflect the repository's organization-owned project Pages path. Update both values if a custom domain or different repository owner is configured later.
+
+Before publishing, replace the clearly marked owner TODOs in `about.md`, `experience.md`, and `cv.md` with verified details.

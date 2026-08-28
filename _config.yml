@@ -1,0 +1,35 @@
+title: "Yashwanth Ramachandra"
+name: "Yashwanth Ramachandra"
+description: >-
+  Healthcare AI and machine learning practitioner focused on generative AI,
+  agentic systems, multimodal learning, and trustworthy clinical AI.
+lang: en-US
+url: "https://praxis-agentic-architectures.github.io"
+baseurl: "/YashwanthRamachandra.github.io"
+repository: "praxis-agentic-architectures/YashwanthRamachandra.github.io"
+
+author:
+  name: "Yashwanth Ramachandra"
+  github: "YashwanthMRamachandra"
+
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/social-card.svg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - vendor

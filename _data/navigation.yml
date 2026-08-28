@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Writing"
+    url: /writing/
+  - title: "Experience"
+    url: /experience/
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /cv/
