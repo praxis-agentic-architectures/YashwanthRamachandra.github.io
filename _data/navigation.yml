@@ -1,0 +1,10 @@
+# Top navigation bar links
+main:
+  - title: "About"
+    url: /
+  - title: "Academic Research"
+    url: /academic/
+  - title: "Corporate & Consulting"
+    url: /corporate/
+  - title: "CV / Resume"
+    url: /cv/

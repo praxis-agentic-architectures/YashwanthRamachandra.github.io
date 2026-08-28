@@ -1,0 +1,19 @@
+# Site wide configuration
+title: "Your Name | Research & Consulting Portfolio"
+name: "Your Name"
+description: "Ph.D. Applicant & Domain Consultant"
+url: "https://github.io" 
+baseurl: "" # Keep this empty
+
+# Author Profile (This populates the left sidebar)
+avatar: "profile-photo.jpg" # Drop a headshot in the /images/ folder
+bio: "Ph.D. Candidate focused on [Your Field] & Corporate Strategy Consultant."
+location: "City, Country"
+employer: "University / Firm Name"
+
+# Social Media Links (Fills out your contact badges)
+orcid: "0000-0000-0000-0000" # Crucial for Ph.D. reviewers
+linkedin: "your-linkedin-username" # Crucial for Corporate clients
+github: "yourusername"
+twitter: "yourusername"
+googlescholar: "scholar_id"
