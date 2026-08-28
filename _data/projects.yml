@@ -1,0 +1,23 @@
+- title: "Generative & Agentic AI Practice Lab"
+  slug: "genai-agentic-practice"
+  year: "2026–present"
+  status: "Research exploration"
+  area: "Generative AI · Agentic AI · RAG"
+  summary: >-
+    A hands-on learning environment for studying how language-model applications
+    move from prompts to structured, tool-using workflows.
+  problem: >-
+    Isolated demonstrations do not expose the reliability and orchestration
+    concerns that appear in end-to-end generative AI systems.
+  approach: >-
+    Develop small, modular experiments spanning prompt design, structured output,
+    retrieval-augmented generation, API integration, agents, and workflow orchestration.
+  evaluation: >-
+    Evaluation criteria and reproducible benchmark results will be documented as
+    individual experiments mature.
+  technologies:
+    - Python
+    - LLM APIs
+    - Retrieval-augmented generation
+    - Structured outputs
+    - Agent orchestration

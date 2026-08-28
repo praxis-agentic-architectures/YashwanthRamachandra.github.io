@@ -1,0 +1,10 @@
+{% assign project = include.project %}
+<article class="project-card">
+  <div class="card-topline">
+    <span class="status">{{ project.status }}</span>
+    <span>{{ project.year }}</span>
+  </div>
+  <h3><a href="{{ '/projects/' | append: project.slug | append: '/' | relative_url }}">{{ project.title }}</a></h3>
+  <p>{{ project.summary }}</p>
+  <p class="keywords">{{ project.area }}</p>
+</article>
