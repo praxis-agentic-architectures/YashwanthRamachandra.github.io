@@ -1,19 +1,35 @@
-# Site wide configuration
-title: "Your Name | Research & Consulting Portfolio"
-name: "Your Name"
-description: "Ph.D. Applicant & Domain Consultant"
-url: "https://github.io" 
-baseurl: "" # Keep this empty
+title: "Yashwanth Ramachandra"
+name: "Yashwanth Ramachandra"
+description: >-
+  Healthcare AI and machine learning practitioner focused on generative AI,
+  agentic systems, multimodal learning, and trustworthy clinical AI.
+lang: en-US
+url: "https://praxis-agentic-architectures.github.io"
+baseurl: "/YashwanthRamachandra.github.io"
+repository: "praxis-agentic-architectures/YashwanthRamachandra.github.io"
 
-# Author Profile (This populates the left sidebar)
-avatar: "profile-photo.jpg" # Drop a headshot in the /images/ folder
-bio: "Ph.D. Candidate focused on [Your Field] & Corporate Strategy Consultant."
-location: "City, Country"
-employer: "University / Firm Name"
+author:
+  name: "Yashwanth Ramachandra"
+  github: "YashwanthMRamachandra"
 
-# Social Media Links (Fills out your contact badges)
-orcid: "0000-0000-0000-0000" # Crucial for Ph.D. reviewers
-linkedin: "your-linkedin-username" # Crucial for Corporate clients
-github: "yourusername"
-twitter: "yourusername"
-googlescholar: "scholar_id"
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/social-card.svg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - vendor
