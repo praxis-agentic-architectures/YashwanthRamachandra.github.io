@@ -21,6 +21,10 @@ The direction of this portfolio is intentionally evidence-led. Completed work, r
 
 ## Contact {#contact}
 
-For professional and research conversations, connect through [GitHub](https://github.com/{{ site.author.github }}). Additional verified professional links can be added when supplied.
+## Contact {#contact}
 
-<!-- TODO(owner): Add a public professional email, LinkedIn, Google Scholar, and ORCID only if you want them published. -->
+- Email: [yashwanth8890@gmail.com](mailto:yashwanth8890@gmail.com)
+- LinkedIn: [LinkedIn profile](https://www.linkedin.com/in/yashwanth-ramachandra-43164345/)
+- GitHub: [GitHub profile](https://github.com/YashwanthMRamachandra)
+- Google Scholar: [Google Scholar profile](https://scholar.google.com/citations?user={{ site.author.google_scholar }})
+- ORCID: [ORCID profile](https://orcid.org/YOUR-ORCID)

@@ -5,12 +5,19 @@ description: >-
   agentic systems, multimodal learning, and trustworthy clinical AI.
 lang: en-US
 url: "https://praxis-agentic-architectures.github.io"
-baseurl: "/YashwanthRamachandra.github.io"
-repository: "praxis-agentic-architectures/YashwanthRamachandra.github.io"
+baseurl: ""
+repository: "praxis-agentic-architectures/praxis-agentic-architectures.github.io"
 
 author:
   name: "Yashwanth Ramachandra"
   github: "YashwanthMRamachandra"
+  title: "Healthcare AI and Generative AI Practitioner"
+  email: "yashwanth8890@gmail.com"
+  github: "YashwanthMRamachandra"
+  linkedin: "https://www.linkedin.com/in/yashwanth-ramachandra-43164345/"
+  google_scholar: "eD2gtd0AAAAJ"
+  orcid: ""
+  location: "San Francisco, CA/USA"
 
 markdown: kramdown
 permalink: pretty
